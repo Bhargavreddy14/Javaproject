@@ -12,5 +12,5 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn clean 
+      - mvn clean validate
 
